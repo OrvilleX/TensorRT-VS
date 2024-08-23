@@ -146,6 +146,7 @@
     <None Include="data\mnist\9.pgm" />
     <None Include="data\mnist\mnist.onnx" />
     <None Include="model\main.py" />
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="model\requirements.txt" />

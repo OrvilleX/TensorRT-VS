@@ -61,6 +61,7 @@
       <Filter>data\mnist</Filter>
     </None>
     <None Include=".gitignore" />
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="model\requirements.txt">

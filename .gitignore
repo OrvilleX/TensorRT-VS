@@ -1,0 +1,101 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# User-specific files (VSCode)
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb][Ii][Nn]/
+[Oo][Bb][Jj]/
+
+# Compiled Object files
+*.obj
+*.o
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# VS Code directories
+.vscode/
+
+# Visual Studio 2022
+.vs/
+
+# CMake files
+CMakeLists.txt.user
+CMakeSettings.json
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# Local configuration file
+*.local
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+
+# Code::Blocks
+*.depend
+
+# Qt-creator
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+
+# Directories for JetBrains IDEs
+.idea/

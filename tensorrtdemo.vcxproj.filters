@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{fdf11144-8191-4096-85fd-f5669b0736ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{c52850ff-4f50-4103-a38a-976175936c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\mnist">
+      <UniqueIdentifier>{c7ec8e1f-2850-48f2-8f84-91ee81a411bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="model\main.py">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="data\mnist\0.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\1.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\2.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\3.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\4.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\5.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\6.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\7.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\8.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\9.pgm">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include="data\mnist\mnist.onnx">
+      <Filter>data\mnist</Filter>
+    </None>
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="model\requirements.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\argsParser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\BatchStream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\buffers.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\EntropyCalibrator.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ErrorRecorder.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\getOptions.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\getoptWin.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\half.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\logger.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\logging.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\parserOnnxConfig.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\safeCommon.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleConfig.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleDevice.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleEngines.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleEntrypoints.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleInference.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleOptions.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleReporting.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\sampleUtils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common\getopt.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\getOptions.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\logger.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sampleEngines.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sampleInference.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sampleOptions.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sampleReporting.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\sampleUtils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="sampleOnnxMNIST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
